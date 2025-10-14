@@ -1,0 +1,20 @@
+#qr {
+    width: 200px;
+    height: 200px;
+    background-color: lightgray;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+  }
+
+  #qr-box {
+    width: 250px;
+    height: 250px;
+    background-color: #e0e0e0;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
