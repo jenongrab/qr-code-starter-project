@@ -35,6 +35,8 @@ body {
 }
 
 
+
+
 /* Never smaller than 1.2rem
 Try to be 2vw (2% of screen width)
 Never bigger than 2rem */
@@ -55,7 +57,7 @@ h1{
     background-color: white;
     /* border-radius: 0px; */
     text-align: center;
-    padding-bottom: 10px;
+    border-radius: 15px;
     /* padding: 10px; */
   }
 
