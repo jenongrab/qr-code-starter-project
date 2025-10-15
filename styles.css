@@ -1,17 +1,21 @@
+
+
+
 body {
+  
     background-color: lightsteelblue;
     justify-content: center;         /* Horizontally center */
     align-items: center;             /* Vertically center */
     height: 100vh;
-    font-family: Arial, sans-serif;
+    font-family: 'work sans';
     
 }
 
 #qr {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 0px;
     text-align: center;
     padding: 20px;
   }
@@ -27,6 +31,7 @@ body {
     flex-direction: column; 
     align-items: center;
     text-align: center;
+    
     
 
     
