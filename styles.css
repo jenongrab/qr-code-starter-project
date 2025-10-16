@@ -15,25 +15,15 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 24px;
+  padding: 16px 16px 40px 16px;
+
+  /* box-shadow: rgba(0, 0, 0, 0.0477) 0px 25px 25px; */
+
+
 }
 
 
-
-/* Desktop styles (1440px) */
-@media (min-width: 1024px) {
-  body {
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 40px;
-    font-size: 18px;
-  }
-
-  .container {
-    display: flex;
-    justify-content: space-between;
-  }
-}
 
 
 
@@ -71,7 +61,7 @@ h1{
 
   #qr-box {
     width: 100%;
-    max-width: 300px;
+    /* fixed-width: 300px; */
     margin: 0 auto;
     background-color: white;
     border-radius: 15px;
@@ -84,6 +74,13 @@ h1{
     
   }
 
+  .attribution {
+    display: flex; 
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+
+  }
 
   #slogan {
     align-items: center;
