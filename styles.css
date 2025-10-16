@@ -11,23 +11,6 @@ body {
 }
 
 
-/* Layout container */
-.container {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  padding: 16px 16px 40px 16px;
-
-  /* box-shadow: rgba(0, 0, 0, 0.0477) 0px 25px 25px; */
-
-
-}
-
-
-
-
-
-
 /* Never smaller than 1.2rem
 Try to be 2vw (2% of screen width)
 Never bigger than 2rem */
@@ -46,7 +29,7 @@ h1{
 
 
 #qr {
-  
+
     width: 100%;
     max-width: 400px;
     background-color: white;
@@ -58,7 +41,7 @@ h1{
     margin: 0 auto;      /* centers the image wrapper */
   }
 
-  #qr img {
+    & img {
     width: 100%;
     display: block;
     height: auto;
@@ -66,25 +49,31 @@ h1{
   }
 
   #qr-box {
-    width: 100%;
-    /* fixed-width: 300px; */
+    /* we don't want the width of the box to change so we keep it fixed */
+    width: 300px;
+    height: 500px;
     margin: 0 auto;
     background-color: white;
     border-radius: 15px;
-    padding: 20px;
+    padding: 15px;
     display: flex;
     flex-direction: column; 
+    justify-content: center;
     align-items: center;
     text-align: center;
     
-    
   }
 
-  .attribution {
-    display: flex; 
+  .attribution { 
+    display: flex;
     flex-direction: column;
-    text-align: center;
+    position: relative;
+    justify-content: center;
+    bottom: 0;
+    /* margin-top: 100px; */
+    font-size: 0.8rem;
     width: 100%;
+    text-align: center;
 
   }
 
